@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="meB-VW-TLe">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Plot Demo View Controller - Demo-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="AZPlotDemoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Demo" id="nGC-Rb-JYl">
+                        <barButtonItem key="rightBarButtonItem" title="Reload" id="b9R-c9-I2S">
+                            <connections>
+                                <action selector="reloadData:" destination="2" id="i6Z-L2-nET"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="v7e-aq-IUQ" kind="custom" identifier="Show Linear" customClass="Relation Segue" id="0yd-fS-ctc"/>
+                        <segue destination="nXN-In-Xbg" kind="custom" identifier="Show Bar Chart" customClass="Realtion Segue" id="UBO-Rr-W5R"/>
+                        <segue destination="zz0-74-Cx2" kind="custom" identifier="Show Pie Chart" customClass="Relation Segue" id="M4z-Y7-d5U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1171" y="45"/>
+        </scene>
+        <!--Bar View Controller-->
+        <scene sceneID="Qa6-lA-ldH">
+            <objects>
+                <viewController storyboardIdentifier="BarViewController" id="nXN-In-Xbg" customClass="BarViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0fv-Kd-IsV">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="HEl-Nr-aKW" customClass="AZPlotView">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="plotView" destination="HEl-Nr-aKW" id="TAh-5u-OfM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tih-oM-Guy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2152" y="45"/>
+        </scene>
+        <!--Pie View Controller-->
+        <scene sceneID="OBp-Sz-G6c">
+            <objects>
+                <viewController storyboardIdentifier="PieViewController" id="zz0-74-Cx2" customClass="PieViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vPv-al-h32">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="oxh-8W-pir" customClass="AZPlotView">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="plotView" destination="oxh-8W-pir" id="CRj-uK-iaZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w6L-dW-mJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2152" y="1166"/>
+        </scene>
+        <!--Linear View Controller-->
+        <scene sceneID="D9d-JG-Xo6">
+            <objects>
+                <viewController storyboardIdentifier="LinearViewController" id="v7e-aq-IUQ" customClass="LinearViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d3c-dj-49h">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="0eV-y3-Nus" customClass="AZPlotView">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="plotView" destination="0eV-y3-Nus" id="QYF-h2-5Ef"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wzf-v0-GF0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2152" y="-1061"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8BX-pQ-d2M">
+            <objects>
+                <navigationController id="meB-VW-TLe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o3g-5Y-pm1">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="q9H-r7-0qC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ihG-Hr-ZyN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="239" y="45"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="AZPlotDemoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AZPlotDemoViewController.h"/>
+        </class>
+        <class className="AZPlotView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AZPlotView.h"/>
+        </class>
+        <class className="BarViewController" superclassName="PlotViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BarViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="plotView" candidateClass="AZPlotView"/>
+            </relationships>
+        </class>
+        <class className="LinearViewController" superclassName="PlotViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LinearViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="plotView" candidateClass="AZPlotView"/>
+            </relationships>
+        </class>
+        <class className="PieViewController" superclassName="PlotViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PieViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="plotView" candidateClass="AZPlotView"/>
+            </relationships>
+        </class>
+        <class className="PlotViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PlotViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

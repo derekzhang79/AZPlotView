@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B234586173FF18700634A3C /* PieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B234585173FF18700634A3C /* PieViewController.m */; };
+		5B3995B6173FE418003DCFA4 /* PlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3995B5173FE418003DCFA4 /* PlotViewController.m */; };
+		5B3995B9173FE427003DCFA4 /* LinearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3995B8173FE427003DCFA4 /* LinearViewController.m */; };
+		5B3995BC173FE4D2003DCFA4 /* BarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3995BB173FE4D2003DCFA4 /* BarViewController.m */; };
+		5BA82B6D173BA27400C6065C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA82B6C173BA27400C6065C /* UIKit.framework */; };
+		5BA82B6F173BA27400C6065C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA82B6E173BA27400C6065C /* Foundation.framework */; };
+		5BA82B71173BA27400C6065C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA82B70173BA27400C6065C /* CoreGraphics.framework */; };
+		5BA82B77173BA27400C6065C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BA82B75173BA27400C6065C /* InfoPlist.strings */; };
+		5BA82B79173BA27400C6065C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA82B78173BA27400C6065C /* main.m */; };
+		5BA82B7D173BA27400C6065C /* AZPlotDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA82B7C173BA27400C6065C /* AZPlotDemoAppDelegate.m */; };
+		5BA82B7F173BA27400C6065C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA82B7E173BA27400C6065C /* Default.png */; };
+		5BA82B81173BA27400C6065C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA82B80173BA27400C6065C /* Default@2x.png */; };
+		5BA82B83173BA27400C6065C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA82B82173BA27400C6065C /* Default-568h@2x.png */; };
+		5BA82B86173BA27400C6065C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA82B84173BA27400C6065C /* MainStoryboard_iPhone.storyboard */; };
+		5BA82B89173BA27400C6065C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA82B87173BA27400C6065C /* MainStoryboard_iPad.storyboard */; };
+		5BA82B8C173BA27400C6065C /* AZPlotDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA82B8B173BA27400C6065C /* AZPlotDemoViewController.m */; };
+		5BA82C37173BAB3600C6065C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA82C36173BAB3600C6065C /* QuartzCore.framework */; };
+		5BA82CFF173BC32C00C6065C /* AZPlotView-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA82CFE173BC32C00C6065C /* AZPlotView-iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B234584173FF18700634A3C /* PieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PieViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5B234585173FF18700634A3C /* PieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PieViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5B3995B4173FE418003DCFA4 /* PlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PlotViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5B3995B5173FE418003DCFA4 /* PlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PlotViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5B3995B7173FE427003DCFA4 /* LinearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LinearViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5B3995B8173FE427003DCFA4 /* LinearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LinearViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5B3995BA173FE4D2003DCFA4 /* BarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BarViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5B3995BB173FE4D2003DCFA4 /* BarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BarViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5BA82B69173BA27400C6065C /* AZPlotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZPlotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA82B6C173BA27400C6065C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BA82B6E173BA27400C6065C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BA82B70173BA27400C6065C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BA82B74173BA27400C6065C /* AZPlotDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AZPlotDemo-Info.plist"; sourceTree = "<group>"; };
+		5BA82B76173BA27400C6065C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BA82B78173BA27400C6065C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5BA82B7A173BA27400C6065C /* AZPlotDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZPlotDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5BA82B7B173BA27400C6065C /* AZPlotDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AZPlotDemoAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5BA82B7C173BA27400C6065C /* AZPlotDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AZPlotDemoAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5BA82B7E173BA27400C6065C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5BA82B80173BA27400C6065C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5BA82B82173BA27400C6065C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BA82B85173BA27400C6065C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5BA82B88173BA27400C6065C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5BA82B8A173BA27400C6065C /* AZPlotDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AZPlotDemoViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5BA82B8B173BA27400C6065C /* AZPlotDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AZPlotDemoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5BA82C36173BAB3600C6065C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5BA82CFE173BC32C00C6065C /* AZPlotView-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AZPlotView-iOS.framework"; path = "../AZPlotView-iOS.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA82B66173BA27400C6065C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA82C37173BAB3600C6065C /* QuartzCore.framework in Frameworks */,
+				5BA82B6D173BA27400C6065C /* UIKit.framework in Frameworks */,
+				5BA82B6F173BA27400C6065C /* Foundation.framework in Frameworks */,
+				5BA82B71173BA27400C6065C /* CoreGraphics.framework in Frameworks */,
+				5BA82CFF173BC32C00C6065C /* AZPlotView-iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B3995B3173FE3FA003DCFA4 /* Plots */ = {
+			isa = PBXGroup;
+			children = (
+				5B3995B4173FE418003DCFA4 /* PlotViewController.h */,
+				5B3995B5173FE418003DCFA4 /* PlotViewController.m */,
+				5B3995B7173FE427003DCFA4 /* LinearViewController.h */,
+				5B3995B8173FE427003DCFA4 /* LinearViewController.m */,
+				5B3995BA173FE4D2003DCFA4 /* BarViewController.h */,
+				5B3995BB173FE4D2003DCFA4 /* BarViewController.m */,
+				5B234584173FF18700634A3C /* PieViewController.h */,
+				5B234585173FF18700634A3C /* PieViewController.m */,
+			);
+			path = Plots;
+			sourceTree = "<group>";
+		};
+		5BA82B60173BA27400C6065C = {
+			isa = PBXGroup;
+			children = (
+				5BA82B72173BA27400C6065C /* AZPlotDemo */,
+				5BA82B6B173BA27400C6065C /* Frameworks */,
+				5BA82B6A173BA27400C6065C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA82B6A173BA27400C6065C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA82B69173BA27400C6065C /* AZPlotDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA82B6B173BA27400C6065C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BA82CFE173BC32C00C6065C /* AZPlotView-iOS.framework */,
+				5BA82C36173BAB3600C6065C /* QuartzCore.framework */,
+				5BA82B6C173BA27400C6065C /* UIKit.framework */,
+				5BA82B6E173BA27400C6065C /* Foundation.framework */,
+				5BA82B70173BA27400C6065C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BA82B72173BA27400C6065C /* AZPlotDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5B3995B3173FE3FA003DCFA4 /* Plots */,
+				5BA82B87173BA27400C6065C /* MainStoryboard_iPad.storyboard */,
+				5BA82B84173BA27400C6065C /* MainStoryboard_iPhone.storyboard */,
+				5BA82B8A173BA27400C6065C /* AZPlotDemoViewController.h */,
+				5BA82B8B173BA27400C6065C /* AZPlotDemoViewController.m */,
+				5BA82B73173BA27400C6065C /* Supporting Files */,
+			);
+			path = AZPlotDemo;
+			sourceTree = "<group>";
+		};
+		5BA82B73173BA27400C6065C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA82B7B173BA27400C6065C /* AZPlotDemoAppDelegate.h */,
+				5BA82B7C173BA27400C6065C /* AZPlotDemoAppDelegate.m */,
+				5BA82B74173BA27400C6065C /* AZPlotDemo-Info.plist */,
+				5BA82B75173BA27400C6065C /* InfoPlist.strings */,
+				5BA82B78173BA27400C6065C /* main.m */,
+				5BA82B7A173BA27400C6065C /* AZPlotDemo-Prefix.pch */,
+				5BA82B7E173BA27400C6065C /* Default.png */,
+				5BA82B80173BA27400C6065C /* Default@2x.png */,
+				5BA82B82173BA27400C6065C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA82B68173BA27400C6065C /* AZPlotDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA82B8F173BA27400C6065C /* Build configuration list for PBXNativeTarget "AZPlotDemo" */;
+			buildPhases = (
+				5BA82B65173BA27400C6065C /* Sources */,
+				5BA82B66173BA27400C6065C /* Frameworks */,
+				5BA82B67173BA27400C6065C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZPlotDemo;
+			productName = AZPlotDemo;
+			productReference = 5BA82B69173BA27400C6065C /* AZPlotDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA82B61173BA27400C6065C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AZPlotDemo;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "aleksey.zunov@gmail.com";
+			};
+			buildConfigurationList = 5BA82B64173BA27400C6065C /* Build configuration list for PBXProject "AZPlotDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BA82B60173BA27400C6065C;
+			productRefGroup = 5BA82B6A173BA27400C6065C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA82B68173BA27400C6065C /* AZPlotDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA82B67173BA27400C6065C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA82B77173BA27400C6065C /* InfoPlist.strings in Resources */,
+				5BA82B7F173BA27400C6065C /* Default.png in Resources */,
+				5BA82B81173BA27400C6065C /* Default@2x.png in Resources */,
+				5BA82B83173BA27400C6065C /* Default-568h@2x.png in Resources */,
+				5BA82B86173BA27400C6065C /* MainStoryboard_iPhone.storyboard in Resources */,
+				5BA82B89173BA27400C6065C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA82B65173BA27400C6065C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA82B79173BA27400C6065C /* main.m in Sources */,
+				5BA82B7D173BA27400C6065C /* AZPlotDemoAppDelegate.m in Sources */,
+				5BA82B8C173BA27400C6065C /* AZPlotDemoViewController.m in Sources */,
+				5B3995B6173FE418003DCFA4 /* PlotViewController.m in Sources */,
+				5B3995B9173FE427003DCFA4 /* LinearViewController.m in Sources */,
+				5B3995BC173FE4D2003DCFA4 /* BarViewController.m in Sources */,
+				5B234586173FF18700634A3C /* PieViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BA82B75173BA27400C6065C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA82B76173BA27400C6065C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BA82B84173BA27400C6065C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA82B85173BA27400C6065C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5BA82B87173BA27400C6065C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA82B88173BA27400C6065C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BA82B8D173BA27400C6065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BA82B8E173BA27400C6065C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BA82B90173BA27400C6065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZPlotDemo/AZPlotDemo-Prefix.pch";
+				INFOPLIST_FILE = "AZPlotDemo/AZPlotDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BA82B91173BA27400C6065C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZPlotDemo/AZPlotDemo-Prefix.pch";
+				INFOPLIST_FILE = "AZPlotDemo/AZPlotDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA82B64173BA27400C6065C /* Build configuration list for PBXProject "AZPlotDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA82B8D173BA27400C6065C /* Debug */,
+				5BA82B8E173BA27400C6065C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA82B8F173BA27400C6065C /* Build configuration list for PBXNativeTarget "AZPlotDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA82B90173BA27400C6065C /* Debug */,
+				5BA82B91173BA27400C6065C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA82B61173BA27400C6065C /* Project object */;
+}
