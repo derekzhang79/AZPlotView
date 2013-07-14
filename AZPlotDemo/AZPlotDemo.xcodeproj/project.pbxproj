@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B15FD17179327F5009D4C5F /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B15FD13179327F5009D4C5F /* icon-114.png */; };
+		5B15FD18179327F5009D4C5F /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B15FD14179327F5009D4C5F /* icon-144.png */; };
+		5B15FD19179327F5009D4C5F /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B15FD15179327F5009D4C5F /* icon-57.png */; };
+		5B15FD1A179327F5009D4C5F /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B15FD16179327F5009D4C5F /* icon-72.png */; };
 		5B234586173FF18700634A3C /* PieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B234585173FF18700634A3C /* PieViewController.m */; };
 		5B3995B6173FE418003DCFA4 /* PlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3995B5173FE418003DCFA4 /* PlotViewController.m */; };
 		5B3995B9173FE427003DCFA4 /* LinearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3995B8173FE427003DCFA4 /* LinearViewController.m */; };
@@ -28,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B15FD13179327F5009D4C5F /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
+		5B15FD14179327F5009D4C5F /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
+		5B15FD15179327F5009D4C5F /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		5B15FD16179327F5009D4C5F /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 		5B234584173FF18700634A3C /* PieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PieViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		5B234585173FF18700634A3C /* PieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PieViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5B3995B4173FE418003DCFA4 /* PlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PlotViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -73,6 +81,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B15FD12179327F5009D4C5F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5B15FD13179327F5009D4C5F /* icon-114.png */,
+				5B15FD14179327F5009D4C5F /* icon-144.png */,
+				5B15FD15179327F5009D4C5F /* icon-57.png */,
+				5B15FD16179327F5009D4C5F /* icon-72.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		5B3995B3173FE3FA003DCFA4 /* Plots */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +152,7 @@
 		5BA82B73173BA27400C6065C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B15FD12179327F5009D4C5F /* Images */,
 				5BA82B7B173BA27400C6065C /* AZPlotDemoAppDelegate.h */,
 				5BA82B7C173BA27400C6065C /* AZPlotDemoAppDelegate.m */,
 				5BA82B74173BA27400C6065C /* AZPlotDemo-Info.plist */,
@@ -204,6 +224,10 @@
 				5BA82B83173BA27400C6065C /* Default-568h@2x.png in Resources */,
 				5BA82B86173BA27400C6065C /* MainStoryboard_iPhone.storyboard in Resources */,
 				5BA82B89173BA27400C6065C /* MainStoryboard_iPad.storyboard in Resources */,
+				5B15FD17179327F5009D4C5F /* icon-114.png in Resources */,
+				5B15FD18179327F5009D4C5F /* icon-144.png in Resources */,
+				5B15FD19179327F5009D4C5F /* icon-57.png in Resources */,
+				5B15FD1A179327F5009D4C5F /* icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
