@@ -47,9 +47,6 @@
 {
     [self generateData];
     [self.plotView reloadData];
-    
-//    // FIXME: не обновляются оси
-//    self.plotView.plotAreaPaddingBottom = 60;
 }
 
 #pragma mark - Private Functions
