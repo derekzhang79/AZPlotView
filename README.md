@@ -3,6 +3,11 @@ AZPlotView
 
 AZPlotView is a light-weight layer above a powerful framework Coreplot.
 
+[![](https://dl.dropboxusercontent.com/s/dfm89vo5naezp8y/1-thumb.png)](https://dl.dropboxusercontent.com/s/u3eiir3eox4774f/1.png)
+[![](https://dl.dropboxusercontent.com/s/bf4aviqeikswjg4/2-thumb.png)](https://dl.dropboxusercontent.com/s/nr7ko7g7lun6qmy/2.png)
+[![](https://dl.dropboxusercontent.com/s/2qdcljpkh645tfx/3-thumb.png)](https://dl.dropboxusercontent.com/s/stsr701avaddofj/3.png)
+[![](https://dl.dropboxusercontent.com/s/zs9dom90ijbvhnm/4-thumb.png)](https://dl.dropboxusercontent.com/s/h1spzk41po9sf5i/4.png)
+
 ## Requirements
 
 AZPlotView works on iOS version >= 5.0 and is compatible only with ARC projects. It depends on the following Apple frameworks:
@@ -23,7 +28,6 @@ AZPlotView works on iOS version >= 5.0 and is compatible only with ARC projects.
 ## Usage
 
 Full list of AZPlotView capabilities you can see in project `AZPlotDemo`.
-In next weekend (13-14 July 2013) I'll describe all properties of AZPlotView framework.
 
 ## Change log
 
