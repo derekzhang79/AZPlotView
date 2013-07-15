@@ -1,7 +1,7 @@
 AZPlotView
 ==========
 
-AZPlotView is a light-weight layer above a powerful framework Coreplot.
+AZPlotView is a lightweight layer above a powerful framework [Coreplot](http://code.google.com/p/core-plot/).
 
 [![](https://dl.dropboxusercontent.com/s/dfm89vo5naezp8y/1-thumb.png)](https://dl.dropboxusercontent.com/s/u3eiir3eox4774f/1.png)
 [![](https://dl.dropboxusercontent.com/s/bf4aviqeikswjg4/2-thumb.png)](https://dl.dropboxusercontent.com/s/nr7ko7g7lun6qmy/2.png)
@@ -27,7 +27,25 @@ AZPlotView works on iOS version >= 5.0 and is compatible only with ARC projects.
 
 ## Usage
 
-Full list of AZPlotView capabilities you can see in project `AZPlotDemo`.
+Full list of AZPlotView capabilities you can see in project "AZPlotDemo".
+
+Setup of X and Y plot values - via data source methods:
+
+* [AZPlotView: valueForXAtIndex: inPlotWithIndex:]
+* [AZPlotView: valueForYAtIndex: inPlotWithIndex:]
+
+Almost all optional properties are initialized via methods of data source `AZPlotViewDataSource`:
+
+* [AZPlotView: valueForGraphProperty:]
+* [AZPlotView: valueForAxisProperty:]
+* [AZPlotView: valueForPlotProperty: inPlotWithIndex:]
+* [AZPlotView: valueForLegendProperty:]
+
+Names of properties and constants can be found in header file `AZPlotViewConstants.h`.
+Also there you can see type of return value of optional 'properties' methods.
+
+For example, record 'AZPlotViewAxisPropertyAxisTitleColor - Value: UIColor' in header file `AZPlotViewConstants.h`
+say, that you must return `UIColor` object for method [AZPlotView: valueForAxisProperty:].
 
 ## Change log
 
